@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Plus+Jakarta+Sans:wght@400;600&display=swap");
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle at top, #fff2f7 0%, #f8dbe8 45%, #e8bfd1 100%);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    flex-direction: column;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 28px 32px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 20px 60px rgba(98, 26, 58, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.6em;
+    color: #7a1f45;
+    letter-spacing: 0.5px;
+    text-shadow: 0 6px 16px rgba(122, 31, 69, 0.2);
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+
+  .yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: linear-gradient(135deg, #c2185b, #9c1f50);
+    color: white;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: 0 10px 26px rgba(122, 31, 69, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #f2a1c0, #e67ea8);
+    color: white;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: 0 10px 26px rgba(230, 126, 168, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .yes-button:hover,
+  .no-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 32px rgba(122, 31, 69, 0.35);
+  }
+
+  .gif_container {
+    width: 320px;
+    height: 240px;
+    margin: 20px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gif_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 18px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  }

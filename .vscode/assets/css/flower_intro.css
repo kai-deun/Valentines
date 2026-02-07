@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Plus+Jakarta+Sans:wght@400;600&display=swap");
+@import url("style.css");
+
+body {
+	background: radial-gradient(circle at top, #1d0013 0%, #12000c 50%, #070005 100%);
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.greetings {
+	font-family: "Playfair Display", serif;
+	letter-spacing: 4px;
+}
+
+.description {
+	color: #f2a1c0;
+	text-shadow: 0 0 14px rgba(242, 161, 192, 0.5);
+}
+
+.button button {
+	background: linear-gradient(135deg, #c2185b, #9c1f50);
+	color: #fff6fb;
+	box-shadow: 0 10px 26px rgba(122, 31, 69, 0.5);
+}
+
+.button button:hover {
+	background: linear-gradient(135deg, #d81b60, #b71c5a);
+	box-shadow: 0 14px 32px rgba(122, 31, 69, 0.6);
+}
